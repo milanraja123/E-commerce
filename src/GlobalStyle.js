@@ -15,16 +15,17 @@ html {
   /* scroll-behavior: smooth; */
   /* 1rem = 10px */
   overflow-x: hidden;
+  
 }
 
 body {
-  overflow-x: hidden;
+  overflow: hidden;
    scrollbar-color: rgb(98 84 243);
     scrollbar-width: thin;
 }
 
 body::-webkit-scrollbar {
-  width: 1.5rem;
+  width: 1.5rem; 
 }
 
 body::-webkit-scrollbar-track {
@@ -101,7 +102,7 @@ ${"" /* resuable code section  */}
 
 .grid-three-column {
   grid-template-columns: repeat(3, 1fr);
-  
+  b 
 }
 
 .grid-four-column{

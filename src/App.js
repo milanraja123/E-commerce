@@ -56,7 +56,7 @@ const App = () => {
             <Route path="/cart" element={<Cart />}></Route>
             <Route path="*" element={<ErrorPage />}></Route> 
           </Routes>
-          <Footer />
+          <Footer /> 
         </Router>
       </ThemeProvider> 
     </>

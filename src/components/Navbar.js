@@ -22,7 +22,8 @@ const Nav = styled.nav`
       &:hover,
       &:active {
         color: ${({ theme }) => theme.colors.helper};
-      }
+      }.
+      
     }
   }
   .mobile-navbar-btn {
